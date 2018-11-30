@@ -5,3 +5,14 @@
 .bottom-margin {
     margin-bottom: 40px;
 }
+
+/* Capitalize the first letter of the first and last name field */
+#firstName,
+#lastName {
+    text-transform: capitalize;
+}
+
+/* Change all the letters in the email field to lowercase */
+#email {
+    text-transform: lowercase;
+}
