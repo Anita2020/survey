@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 30, 2018 at 10:01 AM
+-- Generation Time: Nov 30, 2018 at 04:03 PM
 -- Server version: 5.7.24-0ubuntu0.18.04.1
 -- PHP Version: 7.2.12-1+ubuntu18.04.1+deb.sury.org+1
 
@@ -33,9 +33,9 @@ CREATE TABLE `awlo_showcase` (
   `email` varchar(50) NOT NULL,
   `phone` varchar(15) NOT NULL,
   `chapter` text NOT NULL,
-  `showcase` longtext NOT NULL,
-  `productsNservices` enum('Yes','No') NOT NULL,
-  `specific_products` longtext,
+  `howToBePromoted` longtext NOT NULL,
+  `showcase` enum('Yes','No') NOT NULL,
+  `productsNservices` longtext,
   `registration_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
